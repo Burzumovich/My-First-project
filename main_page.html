@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main_page</title>
@@ -17,12 +20,15 @@
                 <img class="SpeedWagonPick2" src="pictures/An award-winning con.png">
             </div>
         </div>
-        <div class="Jojo-2">
-            <img class="SpeedWagonPick3" src="pictures/SCROLL DOWN.png">
+        <div class="Jojo-2">            
+            <span class="SpeedWagonPick3" style="color: white;">SCROLL DOWN</span>
         </div>
     </div>
     <div class="navbar">
-        <img src="pictures/navbar.png">
+        <img class="navbar-size" src="pictures/navbar.png">
+    </div>
+    <div class="our-story">
+        <img src="pictures/about.png">
     </div>
   
 </body>
@@ -33,7 +39,6 @@
         width: 100%;
         height: 100%;
         background-repeat: no-repeat;
-        background-attachment: fixed;
         background-position: center;
         padding-bottom: 40px;
     }
@@ -56,15 +61,34 @@
         margin-bottom: 40px;
     }
     .SpeedWagonPick{
+        text-align: center;
+        width: 40%;
+        height: 40%;
 
     }
     .SpeedWagonPick2{
+        padding-top: 10px;
 
+    }
+    .SpeedWagonPick3{
+        font-family: "Jura", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
     }
     .navbar{
         text-align: center;
         width: 100%;
         height: 65px;
 
+    }
+    .navbar-size{
+        width: 100%;
+        height: 120%;
+    }
+    .our-story{
+        margin-top: 20px;
+        margin-left: 25%;
+        position: absolute;
     }
 </style>
